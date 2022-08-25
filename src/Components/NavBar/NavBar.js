@@ -32,7 +32,7 @@ function NavBar(){
             </NavLogo>
             <NavMenu>
               <NavItem>
-                <NavLinks1 to="/post"  
+                <NavLinks1 to="/challenge"  
                       active={active}
                       onClick={() => {
                         setActive(1);
@@ -46,10 +46,14 @@ function NavBar(){
                       }}>지도</NavLinks2>
               </NavItem>
             </NavMenu>
-              <NavBell to="/map"> {/* 나중에 /map 수정 필요 */}
+              <NavBell to="/map" onClick={() => {
+                        setActive(0);
+                      }}> {/* 나중에 경로만 수정 필요 */}
                 <img src={bell} alt="bell"/>
               </NavBell>
-              <NavMyPage to="/mypage">
+              <NavMyPage to="/mypage" onClick={() => {
+                        setActive(0);
+                      }}>
                 <img src={mypage} alt="mypage"/>
               </NavMyPage>
           </NavBarContainer>

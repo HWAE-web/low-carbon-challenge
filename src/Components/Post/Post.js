@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { GlobalFonts } from "../../fonts/font";
-import NavBar from "../NavBar/NavBar";
 import { PostContainer } from "./PostElement";
 
 function Post(){
