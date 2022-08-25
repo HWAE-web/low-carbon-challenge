@@ -61,7 +61,7 @@ export const NavLinks1 = styled(LinkRouter)`
     cursor: pointer;
     font-family: "NotoSans Regular";
     font-size: 20px;
-    font-weight: ${({ active }) => (active === 0 ? 800 : 500)};
+    font-weight: ${({ active }) => (active === 1 ? 800 : 500)};
 
     &:hover {
       transition: all 0.2s ease-in-out;
@@ -79,7 +79,7 @@ export const NavLinks2 = styled(LinkRouter)`
     cursor: pointer;
     font-family: "NotoSans Regular";
     font-size: 20px;
-    font-weight: ${({ active }) => (active === 1 ? 800 : 500)};
+    font-weight: ${({ active }) => (active === 2 ? 800 : 500)};
 
     &:hover {
       transition: all 0.2s ease-in-out;

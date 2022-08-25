@@ -3,10 +3,12 @@ import Main from './Components/Main/Main';
 import MapPage from './Components/MapPage/MapPage';
 import Post from './Components/Post/Post';
 import MyPage from './Components/MyPage/MyPage';
+import NavBar from './Components/NavBar/NavBar';
 
 function App() {
   return (
     <>
+    <NavBar/>
     <Routes>
       <Route path='/' element={<Main/>}/>
       <Route path='/map' element={<MapPage/>}/>
