@@ -138,3 +138,82 @@ export const Plus = styled.img`
 export const Minus = styled.img`
     max-width: 30px;
 `
+
+export const MapPin = styled.img`
+    max-width: 24px;
+`
+
+export const MapContentWrap = styled.div`
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 428px;
+    height: 155px;
+    left: 1336px;
+    top: 287px;
+    z-index: 30;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 16, 61, 0.12);
+    border-radius: 6px;
+
+    margin-left: -144px;
+
+    text-align: left;
+    overflow: hidden;
+    font-size: 12px;
+    font-family: "NotoSans Regular";
+    line-height: 1.5;
+`
+export const Info = styled.div`
+    width: 428px;
+    height: 155px;
+    border-radius: 5px;
+    border-bottom: 2px solid #ccc;
+    border-right: 1px solid #ccc;
+    overflow: hidden;
+    background: #fff;
+    z-index: 30;
+
+`
+
+export const InfoTitle = styled.div`
+    padding: 5px 0 0 10px;
+    height: 30px;
+    background: #eee;
+    z-index: 30;
+
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: bold;
+`
+
+export const Close = styled.div`
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #888;
+    width: 17px;
+    height: 17px;
+    background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');
+    &:hover{
+        cursor: pointer;
+    }
+`
+
+export const Body = styled.div`
+    position: relative;
+    overflow: hidden;
+`
+
+export const Addr = styled.div`
+    position: relative;
+    margin: 13px 0 0 90px;
+    height: 75px;
+`
+ 
+export const Ellipsis = styled.div`
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+`
