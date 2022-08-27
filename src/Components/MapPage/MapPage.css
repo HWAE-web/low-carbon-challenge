@@ -3,6 +3,7 @@
     overflow: hidden;
     width: 100%;
     height: 750px;
+    top: 10px;
 }
 .radius_border{
     border: 1.3px solid rgba(0, 16, 61, 0.12);
@@ -110,6 +111,92 @@
     font-weight: bold;}
 
 .customoverlay:after {
+    content:'';
+    position: absolute;
+    margin-left: -12px;
+    left: 50%;
+    bottom: -12px;
+    width: 22px;
+    height: 12px;
+    background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')
+}
+
+.customoverlay1 {
+    position: relative;
+    bottom: 65px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #ddd;float:left;
+}
+.customoverlay1:nth-of-type(n) {
+    border:0; 
+    box-shadow:0px 1px 2px #888;
+}
+.customoverlay1 a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    background: #FD7A7A;
+    background: #FD7A7A url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;
+}
+.customoverlay1 .title {
+    display: block;
+    text-align: center;
+    background: #fff;
+    margin-right: 35px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;}
+
+.customoverlay1:after {
+    content:'';
+    position: absolute;
+    margin-left: -12px;
+    left: 50%;
+    bottom: -12px;
+    width: 22px;
+    height: 12px;
+    background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')
+}
+
+.customoverlay2 {
+    position: relative;
+    bottom: 65px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #ddd;float:left;
+}
+.customoverlay2:nth-of-type(n) {
+    border:0; 
+    box-shadow:0px 1px 2px #888;
+}
+.customoverlay2 a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    background: #6C99EC;
+    background: #6C99EC url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;
+}
+.customoverlay2 .title {
+    display: block;
+    text-align: center;
+    background: #fff;
+    margin-right: 35px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;}
+
+.customoverlay2:after {
     content:'';
     position: absolute;
     margin-left: -12px;

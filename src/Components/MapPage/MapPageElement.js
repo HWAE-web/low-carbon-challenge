@@ -78,7 +78,7 @@ export const R2 = styled.div`
 
 export const Title = styled.div`
     max-width: 500px;
-    margin: 0 0 0 20px;
+    margin: 10px 0 0 18px;
     font-family: "NotoSans Bold";
     font-style: normal;
     font-weight: 900;
@@ -91,7 +91,7 @@ export const Title = styled.div`
 
 export const Desc = styled.div`
     max-width: 564px;
-    margin: -5px 0 0 25px;
+    margin: -20px 0 10 25px;
     font-family: "NotoSans Regular";
     font-style: normal;
     font-weight: 400;
@@ -143,77 +143,140 @@ export const MapPin = styled.img`
     max-width: 24px;
 `
 
-export const MapContentWrap = styled.div`
-    box-sizing: border-box;
+export const TitleRow = styled.div`
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center; 
+    margin: 0;
 
-    position: absolute;
-    width: 428px;
-    height: 155px;
-    left: 1336px;
-    top: 287px;
-    z-index: 30;
+    grid-template-areas: "c1 c1 c1 c1 c2 c3 c3";
 
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 16, 61, 0.12);
+    @media screen and (max-width: 1024px) {
+        
+    }
+    @media screen and (max-width: 768px) {
+        
+    }
+`;
+export const C1 = styled.div`
+  grid-area: c1;
+  margin: 0 0 0 20px;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+ }
+`;
+
+export const C2 = styled.div`
+  grid-area: c2;
+  margin: 0 0 0 70px;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+ }
+`
+export const C3 = styled.div`
+  grid-area: c3;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+ }
+`
+
+export const SelectBox = styled.div`
+    position: relative;
+    width: 167px;
+    padding: 10px;
     border-radius: 6px;
+    border: 1px solid rgba(0, 16, 61, 0.12);
+    box-sizing: border-box;
+    z-index: 999;
+    background-color: #ffffff;
+    align-self: center;
+    cursor: pointer;
 
-    margin-left: -144px;
-
-    text-align: left;
-    overflow: hidden;
-    font-size: 12px;
-    font-family: "NotoSans Regular";
-    line-height: 1.5;
-`
-export const Info = styled.div`
-    width: 428px;
-    height: 155px;
-    border-radius: 5px;
-    border-bottom: 2px solid #ccc;
-    border-right: 1px solid #ccc;
-    overflow: hidden;
-    background: #fff;
-    z-index: 30;
-
-`
-
-export const InfoTitle = styled.div`
-    padding: 5px 0 0 10px;
-    height: 30px;
-    background: #eee;
-    z-index: 30;
-
-    border-bottom: 1px solid #ddd;
-    font-size: 18px;
-    font-weight: bold;
-`
-
-export const Close = styled.div`
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #888;
-    width: 17px;
-    height: 17px;
-    background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');
-    &:hover{
-        cursor: pointer;
+    &::before {
+        content: "⌵";
+        position: absolute;
+        top: 4px;
+        right: 10px;
+        color: #67D094;
+        font-size: 20px;
+        font-weight: bold;
     }
 `
 
-export const Body = styled.div`
-    position: relative;
+export const Label = styled.label`
+    font-family: "NotoSans Regular";
+
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+`;
+
+export const SelectOptions = styled.ul`
+    position: absolute;
+    list-style: none;
+    top: 30px;
+    left: 0;
+    width: 100%;
     overflow: hidden;
+    height: 114px;
+    max-height: ${(props) => (props.show ? "none" : "0")};
+    padding: 0;
+    border-radius: 6px;
+    border: ${(props) => (props.show ? "1px solid rgba(0, 16, 61, 0.12)" : "none")};
+
+    background-color: #ffffff;
 `
 
-export const Addr = styled.div`
-    position: relative;
-    margin: 13px 0 0 90px;
-    height: 75px;
+export const Option = styled.li`
+    font-family: "NotoSans Regular";
+
+    font-size: 14px;
+    padding: 8px 4px;
+
+    transition: background-color 0.2s ease-in;
+    &:hover {
+        background-color: #fafafa;
+    }
 `
- 
-export const Ellipsis = styled.div`
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+export const OptionImg = styled.img`
+    position: relative;
+    padding: 0px 15px 0 10px;
+    top: 3px;
+    left: 2px;
+    margin: 0;
+`
+
+export const MapSearchArea = styled.div`    
+    position: relative;
+    width: 400px;
+    max-height: 40px;
+`
+export const MapSearchInput = styled.input`
+    box-sizing: border-box;
+
+    width: 100%;
+    // max-height: 40px;
+
+    background: #FFFFFF;
+
+    border: 1px solid rgba(0, 16, 61, 0.12);
+    border-radius: 6px;
+
+    font-family: 'NotoSans Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px 30px 10px 50px;
+    margin: 0 0 0 20px;
+    background: #FFFFFF;
+    &:focus{
+        outline: none;
+    }
+`
+
+export const SearchIcon = styled.img`
+    position : absolute;
+    top: 11px;
+    left: 41px;
 `
