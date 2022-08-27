@@ -122,7 +122,7 @@ export const cafe_data = [
         name: "허법 핑거스",
         address: "경기 이천시 백사면 조읍리 629-1",
         latlng: { lat: 37.3196265, lng: 127.4706514 },
-        href: "https://map.naver.com/v5/entry/place/1351694603?c=14189969.6413314,4483756.8801430,13,0,0,0,dh&placePath=%2Fhome&entry=pltㅁ"
+        href: "https://map.naver.com/v5/entry/place/1351694603?c=14189969.6413314,4483756.8801430,13,0,0,0,dh&placePath=%2Fhome&entry=plt"
       },
       {
         id: 18,
@@ -314,139 +314,162 @@ export const restaurant_data = [
         id: 0,
         name: "발우공양",
         address: "서울특별시 종로구 우정국로 56",
-        latlng: { lat: 37.5738938, lng: 126.9831801 }
+        latlng: { lat: 37.5738938, lng: 126.9831801 },
+        href: "https://place.map.kakao.com/21959342"
       },
       {
         id: 1,
         name: "칙피스",
         address: "서울특별시 강남구 강남대로152길 69",
-        latlng: { lat: 37.5190769, lng: 127.0247078 }
+        latlng: { lat: 37.5190769, lng: 127.0247078 },
+        href: "https://place.map.kakao.com/714223410"
       },
       {
         id: 2,
         name: "몽크스부처",
         address: "서울특별시 용산구 이태원로 228-1 3-4F",
-        latlng: { lat: 37.5354032, lng: 126.9992099 }
+        latlng: { lat: 37.5354032, lng: 126.9992099 },
+        href: "https://place.map.kakao.com/1701160594"
       },
       {
         id: 3,
         name: "천년식향",
         address: "서울특별시 서초구 효령로 316-1 3F",
-        latlng: { lat: 37.4853814, lng: 127.018953 }
+        latlng: { lat: 37.4853814, lng: 127.018953 },
+        href: "https://place.map.kakao.com/1920553701"
       },
       {
         id: 4,
         name: "푸드더즈매터",
         address: "서울특별시 서초구 서래로1길 10 1F",
-        latlng: { lat: 37.4961266, lng: 126.9970813 }
+        latlng: { lat: 37.4961266, lng: 126.9970813 },
+        href: "https://place.map.kakao.com/85453824"
       },
       {
         id: 5,
         name: "루시드",
         address: "서울특별시 마포구 독막로14길 24 2F",
-        latlng: { lat: 37.5473226, lng: 126.9221781 }
+        latlng: { lat: 37.5473226, lng: 126.9221781 },
+        href: "https://place.map.kakao.com/2005749800"
       },
       {
         id: 6,
         name: "신동양반점",
         address: "서울특별시 영등포구 여의나루로 42 여의도종합상가 5F",
-        latlng: { lat: 37.5215486, lng: 126.9247997 }
+        latlng: { lat: 37.5215486, lng: 126.9247997 },
+        href: "https://place.map.kakao.com/8435069"
       },
       {
         id: 7,
         name: "셰발레리",
         address: "서울특별시 마포구 포은로 52",
-        latlng: { lat: 37.5520238, lng: 126.9069385 }
+        latlng: { lat: 37.5520238, lng: 126.9069385 },
+        href: "https://place.map.kakao.com/772300679"
       },
       {
         id: 8,
         name: "슬런치팩토리",
         address: "서울특별시 마포구 와우산로3길 38",
-        latlng: { lat: 37.5458344, lng: 126.9208269 }
+        latlng: { lat: 37.5458344, lng: 126.9208269 },
+        href: "https://place.map.kakao.com/17884655"
       },
       {
         id: 9,
         name: "남미플랜트랩",
         address: "서울특별시 서초구 방배천로4안길 55 2F",
-        latlng: { lat: 37.4805678, lng: 126.9832228 }
+        latlng: { lat: 37.4805678, lng: 126.9832228 },
+        href: "https://place.map.kakao.com/872818844"
       },
       {
         id: 10,
         name: "베제투스",
         address: "서울특별시 용산구 신흥로 59",
-        latlng: { lat: 37.5436774, lng: 126.9872559 }
+        latlng: { lat: 37.5436774, lng: 126.9872559 },
+        href: "https://place.map.kakao.com/1441623065"
       },
       {
         id: 11,
         name: "미스터 리",
         address: "서울특별시 서대문구 연세로7안길 41 B1",
-        latlng: { lat: 37.5581399, lng: 126.9344327 }
+        latlng: { lat: 37.5581399, lng: 126.9344327 },
+        href: "https://place.map.kakao.com/545911707"
       },
       {
         id: 12,
         name: "더커먼",
         address: "대구광역시 중구 국채보상로 741",
-        latlng: { lat: 35.8686215, lng: 128.6117302 }
+        latlng: { lat: 35.8686215, lng: 128.6117302 },
+        href: "https://place.map.kakao.com/1931586964"
       },
       {
         id: 13,
         name: "더 샐",
         address: "대전광역시 중구 중앙로122번길 42",
-        latlng: { lat: 36.3258762, lng: 127.4242557 }
+        latlng: { lat: 36.3258762, lng: 127.4242557 },
+        href: "https://place.map.kakao.com/27358936"
       },
       {
         id: 14,
         name: "제주소녀",
         address: "제주 제주시 구좌읍 비자숲길 21",
-        latlng: { lat: 33.4912729, lng: 126.8108509 }
+        latlng: { lat: 33.4912729, lng: 126.8108509 },
+        href: "https://place.map.kakao.com/625490373"
       },
       {
         id: 15,
         name: "카고크루즈",
         address: "제주 제주시 탑동로 43 2층",
-        latlng: { lat: 33.5175741, lng: 126.5204004 }
+        latlng: { lat: 33.5175741, lng: 126.5204004 },
+        href: "https://place.map.kakao.com/671745721"
       },
       {
         id: 16,
         name: "칠분의오",
         address: "제주 제주시 구좌읍 해맞이해안로 650-20 111동 1층",
-        latlng: { lat: 33.5291668, lng: 126.8538817 }
+        latlng: { lat: 33.5291668, lng: 126.8538817 },
+        href: "https://place.map.kakao.com/147445947"
       },
       {
         id: 17,
-        name: "치치레이지",
+        name: "치지레이지",
         address: "제주 제주시 서사로 173 1층",
-        latlng: { lat: 33.496718, lng: 126.5200106 }
+        latlng: { lat: 33.496718, lng: 126.5200106 },
+        href: "https://place.map.kakao.com/1011404661"
       },
       {
         id: 18,
         name: "산토샤",
         address: "제주 서귀포시 안덕면 산방로 415 1층",
-        latlng: { lat: 33.230553, lng: 126.29305 }
+        latlng: { lat: 33.230553, lng: 126.29305 },
+        href: "https://place.map.kakao.com/293413178"
       },
       {
         id: 19,
         name: "숲속의도토리",
         address: "제주 제주시 도근내길 18 숲속의도토리",
-        latlng: { lat: 33.4924296, lng: 126.4330133 }
+        latlng: { lat: 33.4924296, lng: 126.4330133 },
+        href: "https://place.map.kakao.com/11126095"
       },
       {
         id: 20,
         name: "풀",
         address: "전북 전주시 완산구 전라감영3길 13-8 1층 풀 (POOL)",
-        latlng: { lat: 35.8163645, lng: 127.1428804 }
+        latlng: { lat: 35.8163645, lng: 127.1428804 },
+        href: "https://place.map.kakao.com/1588358241"
       },
       {
         id: 21,
         name: "파스타인샐러드",
         address: "광주 남구 제석로80번길 5 상가동 104호",
-        latlng: { lat: 35.1210173, lng: 126.9114331 }
+        latlng: { lat: 35.1210173, lng: 126.9114331 },
+        href: "https://place.map.kakao.com/245124368"
       },
       {
         id: 22,
         name: "그린위치",
         address: "전북 전주시 완산구 서원로 10 1층, 104호",
-        latlng: { lat: 35.8133015, lng: 127.1224769 }
+        latlng: { lat: 35.8133015, lng: 127.1224769 },
+        href: "https://place.map.kakao.com/36120883"
       },
 
 ]
@@ -456,181 +479,211 @@ export const shop_data = [
         id: 0,
         name: "지구맑음",
         address: "울산 남구 삼산중로74번길 30 2층 지구맑음",
-        latlng: { lat: 35.5404833, lng: 129.3385737 }
+        latlng: { lat: 35.5404833, lng: 129.3385737 },
+        href: "https://place.map.kakao.com/746166808"
       },
       {
         id: 1,
         name: "선택지",
         address: "서울 강동구 천호옛12길 47 1층 선택지",
-        latlng: { lat: 37.534789, lng: 127.1272276 }
+        latlng: { lat: 37.534789, lng: 127.1272276 },
+        href: "https://place.map.kakao.com/928455982"
       },
       {
         id: 2,
         name: "디어에코",
         address: "서울 광진구 아차산로65길 22 101호",
-        latlng: { lat: 37.5412316, lng: 127.093786 }
+        latlng: { lat: 37.5412316, lng: 127.093786 },
+        href: "https://place.map.kakao.com/2125933186"
       },
       {
         id: 3,
         name: "제로에이블",
         address: "경기 안양시 동안구 동편로27번길 7 센타빌딩 105호~106호",
-        latlng: { lat: 37.40673, lng: 126.9720744 }
+        latlng: { lat: 37.40673, lng: 126.9720744 },
+        href: "https://place.map.kakao.com/1569035240"
       },
       {
         id: 4,
         name: "북촌감성",
         address: "서울 종로구 계동길 60 지하1층",
-        latlng: { lat: 37.5799089, lng: 126.9868333 }
+        latlng: { lat: 37.5799089, lng: 126.9868333 },
+        href: "https://place.map.kakao.com/126021638"
       },
       {
         id: 5,
         name: "프롬미",
         address: "경기 김포시 김포한강9로115번길 56 101호",
-        latlng: { lat: 37.6342473, lng: 126.7370613 }
+        latlng: { lat: 37.6342473, lng: 126.7370613 },
+        href: "https://place.map.kakao.com/986489768"
       },
       {
         id: 6,
         name: "더비건글로우",
         address: "대전 유성구 테크노4로 17 B동 507호",
-        latlng: { lat: 36.4262899, lng: 127.3897975 }
+        latlng: { lat: 36.4262899, lng: 127.3897975 },
+        href: "https://place.map.kakao.com/1404694570"
       },
       {
         id: 7,
         name: "모노무브",
         address: "서울 노원구 동일로174길 27 서울창업디딤터 301호",
-        latlng: { lat: 37.6192461, lng: 127.0773 }
+        latlng: { lat: 37.6192461, lng: 127.0773 },
+        href: "https://map.naver.com/v5/search/%EB%AA%A8%EB%85%B8%EB%AC%B4%EB%B8%8C/place/1345396633?c=14145208.4836320,4525908.2336262,15,0,0,0,dh&entry=plt&placePath=%3Fentry%253Dbmp"
       },
       {
         id: 8,
         name: "리필위드유",
         address: "경기 군포시 번영로 502 3층 Re-Feel: with U",
-        latlng: { lat: 37.3575562, lng: 126.9333988 }
+        latlng: { lat: 37.3575562, lng: 126.9333988 },
+        href: "https://place.map.kakao.com/728482198"
       },
       {
         id: 9,
         name: "순환지구",
         address: "서울 성북구 동소문로25길 8 1층",
-        latlng: { lat: 37.5947702, lng: 127.0185684 }
+        latlng: { lat: 37.5947702, lng: 127.0185684 },
+        href: "https://place.map.kakao.com/1133896366"
       },
       {
         id: 10,
         name: "지구상점",
         address: "전남 나주시 그린로 229 103호 그린타워",
-        latlng: { lat: 35.0160601, lng: 126.7107572 }
+        latlng: { lat: 35.0160601, lng: 126.7107572 },
+        href: "https://place.map.kakao.com/746283357"
       },
       {
         id: 11,
         name: "허그어웨일",
         address: "서울 강서구 화곡로55길 23 1층 허그어웨일",
-        latlng: { lat: 37.5526993, lng: 126.8483948 }
+        latlng: { lat: 37.5526993, lng: 126.8483948 },
+        href: "https://place.map.kakao.com/1091579008"
       },
       {
         id: 12,
         name: "맹꽁이상점",
         address: "경기 시흥시 하중로173번길 22 101호",
-        latlng: { lat: 37.3950851, lng: 126.8044153 }
+        latlng: { lat: 37.3950851, lng: 126.8044153 },
+        href: "https://place.map.kakao.com/1021118736"
       },
       {
         id: 13,
         name: "리필리",
         address: "경기 김포시 양촌읍 양곡4로 25",
-        latlng: { lat: 37.6559139, lng: 126.6234434 }
+        latlng: { lat: 37.6559139, lng: 126.6234434 },
+        href: "https://place.map.kakao.com/1214375416"
       },
       {
         id: 14,
         name: "다시채움",
         address: "경기 용인시 수지구 대지로 43 606호",
-        latlng: { lat: 37.3286175, lng: 127.1142499 }
+        latlng: { lat: 37.3286175, lng: 127.1142499 },
+        href: ""
       },
       {
         id: 15,
         name: "알맹상점",
         address: "서울 마포구 월드컵로25길 47 3층 알맹상점",
-        latlng: { lat: 37.557761, lng: 126.9052787 }
+        latlng: { lat: 37.557761, lng: 126.9052787 },
+        href: "https://place.map.kakao.com/1771847437"
       },
       {
         id: 16,
         name: "원점",
         address: "서울 성동구 아차산로7길 42 1층 원점",
-        latlng: { lat: 37.5486111, lng: 37.5486111 }
+        latlng: { lat: 37.5486111, lng: 37.5486111 },
+        href: "https://place.map.kakao.com/1986771754"
       },
       {
         id: 17,
         name: "지니얼스",
         address: "경기 수원시 팔달구 중부대로223번길 66 2층 204호",
-        latlng: { lat: 37.2787889, lng: 127.0413202 }
+        latlng: { lat: 37.2787889, lng: 127.0413202 },
+        href: "https://place.map.kakao.com/546182391"
       },
       {
         id: 18,
         name: "에코로이",
         address: "경기 김포시 양촌읍 양곡4로 25",
-        latlng: { lat: 37.6559139, lng: 126.6234434 }
+        latlng: { lat: 37.6559139, lng: 126.6234434 },
+        href: "https://place.map.kakao.com/1880648900"
       },
       {
         id: 19,
         name: "내일상회",
         address: "강원 강릉시 용지로96번길 25-1",
-        latlng: { lat: 37.760601, lng: 128.9075229 }
+        latlng: { lat: 37.760601, lng: 128.9075229 },
+        href: "https://place.map.kakao.com/2061889781"
       },
       {
         id: 20,
         name: "코코아일랜드",
         address: "부산 부산진구 성지로14번길 13",
-        latlng: { lat: 35.1719607, lng: 129.0559265 }
+        latlng: { lat: 35.1719607, lng: 129.0559265 },
+        href: "https://place.map.kakao.com/235670508"
       },
       {
         id: 21,
         name: "네모상점",
         address: "부산 연제구 신금로 25 2층 227호",
-        latlng: { lat: 35.1914849, lng: 129.0943739 }
+        latlng: { lat: 35.1914849, lng: 129.0943739 },
+        href: "https://place.map.kakao.com/1603194910"
       },
       {
         id: 22,
         name: "비모크",
         address: "부산 강서구 명지국제8로10번길 46 120호",
-        latlng: { lat: 35.0998348, lng: 128.928286 }
+        latlng: { lat: 35.0998348, lng: 128.928286 },
+        href: "https://place.map.kakao.com/377413262"
       },
       {
         id: 23,
         name: "지구별가게",
         address: "제주 제주시 월랑북2길 16",
-        latlng: { lat: 33.4926193, lng: 126.4753823 }
+        latlng: { lat: 33.4926193, lng: 126.4753823 },
+        href: "https://place.map.kakao.com/322286925"
       },
       {
         id: 24,
-        name: "꽃마리협동조합",
+        name: "꽃마리리필스토어",
         address: "제주 제주시 연신로 160",
-        latlng: { lat: 33.4899186, lng: 126.5526131 }
+        latlng: { lat: 33.4899186, lng: 126.5526131 },
+        href: "https://place.map.kakao.com/126905780"
       },
       {
         id: 25,
         name: "마이 아일랜드",
         address: "제주 서귀포시 호근로112번길 24",
-        latlng: { lat: 33.2584528, lng: 126.5283459 }
+        latlng: { lat: 33.2584528, lng: 126.5283459 },
+        href: "https://place.map.kakao.com/1039689227"
       },
       {
         id: 26,
         name: "소우주",
         address: "전북 전주시 덕진구 숲정이3길 11-1 소우주",
-        latlng: { lat: 35.8297779, lng: 127.131726 }
+        latlng: { lat: 35.8297779, lng: 127.131726 },
+        href: "https://place.map.kakao.com/746451145"
       },
       {
         id: 27,
         name: "늘미곡",
         address: "전북 전주시 완산구 선너머로 16 , 상가2동 1층 1호",
-        latlng: { lat: 35.8157844, lng: 127.126403 }
+        latlng: { lat: 35.8157844, lng: 127.126403 },
+        href: "https://place.map.kakao.com/1502344872"
       },
       {
         id: 28,
         name: "오롯이",
         address: "경북 안동시 경북대로 418 옥동 테마프라자B동 242호",
-        latlng: { lat: 36.5664656, lng: 128.6994711 }
+        latlng: { lat: 36.5664656, lng: 128.6994711 },
+        href: "https://place.map.kakao.com/1688789714"
       },
       {
         id: 29,
         name: "오션클라우드",
         address: "광주 동구 제봉로 140 2층",
-        latlng: { lat: 35.1504155, lng: 126.9211305 }
+        latlng: { lat: 35.1504155, lng: 126.9211305 },
+        href: "https://place.map.kakao.com/112029355"
       },
 
 ]
