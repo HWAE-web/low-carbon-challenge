@@ -93,7 +93,7 @@ export const NavLinks2 = styled(LinkRouter)`
 
 export const NavBell = styled(LinkRouter)`
   /* margin: 5px 0 0 1230px; */
-  margin-left: 65%;
+  margin-left: 70%;
   margin-right: 2%;
   display: flex;
   max-width: 23px;
