@@ -32,7 +32,7 @@ function NavBar(){
             </NavLogo>
             <NavMenu>
               <NavItem>
-                <NavLinks1 to="/challenge"  
+                <NavLinks1 to="/post"  
                       active={active}
                       onClick={() => {
                         setActive(1);
