@@ -66,7 +66,7 @@ export const R2 = styled.div`
 
 export const Title = styled.div`
   max-width: 500px;
-  margin: 10px 0 0 18px;
+  margin: 10px 0 0 50px;
   font-family: "NotoSans Bold";
   font-style: normal;
   font-weight: 900;
@@ -79,7 +79,6 @@ export const Title = styled.div`
 
 export const Desc = styled.div`
   max-width: 564px;
-  margin: -20px 0 10 25px;
   font-family: "NotoSans Regular";
   font-style: normal;
   font-weight: 400;
@@ -90,33 +89,9 @@ export const Desc = styled.div`
   color: #767676;
 `;
 
-export const MapRow = styled.div`
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  align-items: center;
-  margin: 0;
-
-  grid-template-areas: "col1 col1 col1 col1 col1 col2 col2";
-
-  @media screen and (max-width: 1024px) {
-  }
-  @media screen and (max-width: 768px) {
-  }
-`;
-export const Column1 = styled.div`
-  grid-area: col1;
-  margin: 10px 0 0 20px;
-  @media screen and (max-width: 768px) {
-    padding: 0;
-  }
-`;
-
-export const Column2 = styled.div`
-  grid-area: col2;
-  @media screen and (max-width: 768px) {
-    padding: 0;
-  }
-`;
+export const MapWrap = styled.div`
+  margin: 10px 50px 20px 50px;
+`
 
 export const Plus = styled.img`
   max-width: 30px;
@@ -135,7 +110,7 @@ export const TitleRow = styled.div`
   align-items: center;
   margin: 0;
 
-  grid-template-areas: "c1 c1 c1 c1 c2 c3 c3";
+  grid-template-areas: "c1 c1 c1 c1 c1 c1 c2";
 
   @media screen and (max-width: 1024px) {
   }
@@ -144,7 +119,7 @@ export const TitleRow = styled.div`
 `;
 export const C1 = styled.div`
   grid-area: c1;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 50px;
   @media screen and (max-width: 768px) {
     padding: 0;
   }
@@ -152,17 +127,12 @@ export const C1 = styled.div`
 
 export const C2 = styled.div`
   grid-area: c2;
-  margin: 0 0 0 70px;
+  margin: 0 0 0 19px;
   @media screen and (max-width: 768px) {
     padding: 0;
   }
 `;
-export const C3 = styled.div`
-  grid-area: c3;
-  @media screen and (max-width: 768px) {
-    padding: 0;
-  }
-`;
+
 
 export const SelectBox = styled.div`
   position: relative;
@@ -223,45 +193,11 @@ export const Option = styled.li`
     background-color: #fafafa;
   }
 `;
+
 export const OptionImg = styled.img`
   position: relative;
   padding: 0px 15px 0 10px;
   top: 3px;
   left: 2px;
   margin: 0;
-`;
-
-export const MapSearchArea = styled.div`
-  position: relative;
-  width: 400px;
-  max-height: 40px;
-`;
-export const MapSearchInput = styled.input`
-  box-sizing: border-box;
-
-  width: 100%;
-  // max-height: 40px;
-
-  background: #ffffff;
-
-  border: 1px solid rgba(0, 16, 61, 0.12);
-  border-radius: 6px;
-
-  font-family: "NotoSans Regular";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 30px 10px 50px;
-  margin: 0 0 0 20px;
-  background: #ffffff;
-  &:focus {
-    outline: none;
-  }
-`;
-
-export const SearchIcon = styled.img`
-  position: absolute;
-  top: 11px;
-  left: 41px;
 `;
