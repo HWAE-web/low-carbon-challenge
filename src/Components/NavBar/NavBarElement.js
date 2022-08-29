@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
-// import { Link as LinkScroll } from "react-scroll";
 
 export const Nav = styled.nav`
   background: white;
@@ -21,7 +20,6 @@ export const Nav = styled.nav`
 
 export const NavBarContainer = styled.div`
   display: flex;
-  /* justify-content: space-between; */
   height: 70px;
   z-index: 999;
   width: 100%;
@@ -52,7 +50,6 @@ export const NavMenu = styled.ul`
 `;
 export const NavItem = styled.li`
   height: 80px;
-  /* margin: 0 25px; */
 `;
 
 export const NavLinks1 = styled(LinkRouter)`
@@ -64,7 +61,7 @@ export const NavLinks1 = styled(LinkRouter)`
   height: 100%;
   cursor: pointer;
   font-family: "NotoSans Regular";
-  font-size: 17px;
+  font-size: 18px;
   font-weight: ${({ active }) => (active === 1 ? 800 : 500)};
 
   &:hover {
@@ -78,11 +75,10 @@ export const NavLinks2 = styled(LinkRouter)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  /* margin: 0 30px; */
   height: 100%;
   cursor: pointer;
   font-family: "NotoSans Regular";
-  font-size: 17px;
+  font-size: 18px;
   font-weight: ${({ active }) => (active === 2 ? 800 : 500)};
 
   &:hover {
@@ -100,13 +96,11 @@ export const NavBell = styled(LinkRouter)`
   align-items: center;
 
   @media screen and (max-width: 768px) {
-    /* margin: 5px 0 0 530px; */
     display: flex;
   }
 `;
 
 export const NavMyPage = styled(LinkRouter)`
-  /* margin: 5px 0 0 30px; */
   display: flex;
   max-width: 50px;
   align-items: center;
