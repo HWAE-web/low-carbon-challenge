@@ -66,7 +66,7 @@ export const R2 = styled.div`
 
 export const Title = styled.div`
   max-width: 500px;
-  margin: 10px 0 0 50px;
+  margin: 10px 0 0 18px;
   font-family: "NotoSans Bold";
   font-style: normal;
   font-weight: 900;
@@ -79,6 +79,7 @@ export const Title = styled.div`
 
 export const Desc = styled.div`
   max-width: 564px;
+  margin: -20px 0 10 25px;
   font-family: "NotoSans Regular";
   font-style: normal;
   font-weight: 400;
@@ -89,9 +90,33 @@ export const Desc = styled.div`
   color: #767676;
 `;
 
-export const MapWrap = styled.div`
-  margin: 10px 50px 20px 50px;
-`
+export const MapRow = styled.div`
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  margin: 0;
+
+  grid-template-areas: "col1 col1 col1 col1 col1 col2 col2";
+
+  @media screen and (max-width: 1024px) {
+  }
+  @media screen and (max-width: 768px) {
+  }
+`;
+export const Column1 = styled.div`
+  grid-area: col1;
+  margin: 10px 0 0 20px;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
+`;
+
+export const Column2 = styled.div`
+  grid-area: col2;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
+`;
 
 export const Plus = styled.img`
   max-width: 30px;
@@ -110,7 +135,7 @@ export const TitleRow = styled.div`
   align-items: center;
   margin: 0;
 
-  grid-template-areas: "c1 c1 c1 c1 c1 c1 c2";
+  grid-template-areas: "c1 c1 c1 c1 c2 c3 c3";
 
   @media screen and (max-width: 1024px) {
   }
@@ -119,7 +144,7 @@ export const TitleRow = styled.div`
 `;
 export const C1 = styled.div`
   grid-area: c1;
-  margin: 0 0 0 50px;
+  margin: 0 0 0 20px;
   @media screen and (max-width: 768px) {
     padding: 0;
   }
@@ -127,12 +152,17 @@ export const C1 = styled.div`
 
 export const C2 = styled.div`
   grid-area: c2;
-  margin: 0 0 0 19px;
+  margin: 0 0 0 70px;
   @media screen and (max-width: 768px) {
     padding: 0;
   }
 `;
-
+export const C3 = styled.div`
+  grid-area: c3;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
+`;
 
 export const SelectBox = styled.div`
   position: relative;
@@ -193,11 +223,176 @@ export const Option = styled.li`
     background-color: #fafafa;
   }
 `;
-
 export const OptionImg = styled.img`
   position: relative;
   padding: 0px 15px 0 10px;
   top: 3px;
   left: 2px;
   margin: 0;
+`;
+
+export const MapSearchArea = styled.div`
+  position: relative;
+  width: 300px;
+  max-height: 40px;
+`;
+export const MapSearchInput = styled.input`
+  box-sizing: border-box;
+
+  width: 100%;
+
+  background: #ffffff;
+
+  border: 1px solid rgba(0, 16, 61, 0.12);
+  border-radius: 6px;
+
+  font-family: "NotoSans Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 10px 30px 10px 50px;
+  margin: 0 0 0 20px;
+  background: #ffffff;
+  &:focus {
+    outline: none;
+  }
+`;
+
+export const SearchIcon = styled.img`
+  position: absolute;
+  top: 11px;
+  left: 41px;
+`;
+
+export const DetailInfo = styled.div`
+  width: 400px;
+  font-family: "NotoSans Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 10px 0px 10px 30px;
+  color: #767676;
+`
+export const ClearBtn = styled.button`
+  position: absolute;
+  top: 2px;
+  left: 335px;
+  width: 80px;
+  height: 35px;
+
+
+  border-radius: 10px;
+ 
+  background: #53d991;
+  white-space: nowrap;
+  padding: 9px 20px;
+  color: white;
+  font-family: "SUIT Extrabold";
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(10px 10px 10px rgba(103, 208, 152, 0.2));
+  /* transition: all 0.2s ease-in-out; */
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    /* background: ${({ primary }) => (primary ? "white" : "orange")}; */
+    background: transparent;
+    color: #53d991;
+    border: 1px solid #53d991;
+  }
+`
+
+export const DetailWrap = styled.div`
+  position: absolute;
+  top: 220px;
+`
+
+export const DetailArea = styled.div`
+  width: 400px;
+  max-height: 250px;
+  background: #ffffff;
+  margin: 0 0 10px 20px;
+  border: 1px solid rgba(0, 16, 61, 0.12);
+  border-radius: 6px;
+`
+export const ShopName = styled.div`
+  max-width: 500px;
+  margin: 20px 0 0 30px;
+  font-family: "NotoSans Bold";
+  display: inline-block;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+
+  color: #424242;
+`
+export const ShopType = styled.div`
+  max-width: 500px;
+  margin: 0 0 0 20px;
+  font-family: "NotoSans Bold";
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+
+  color: #D3D3D3;
+`
+export const ShopAddr = styled.div`
+  max-width: 500px;
+  margin: 0 0 10px 30px;
+  font-family: "NotoSans Regular";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+
+  color: #424242;
+`
+
+
+export const PostLink = styled.div`
+  color: #424242;
+  width: 138px;
+  margin: 0 10px 20px 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "NotoSans Regular";
+  font-size: 13px;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #53D991;
+  }
+`;
+
+export const Dot = styled.img`
+  display: inline-block;
+  width: 6.25px;
+`
+
+export const PostLink2 = styled.div`
+  display: inline-block;
+  color: #424242;
+  width: 50px;
+  margin: 0 0 20px 13px;
+  cursor: pointer;
+  font-family: "NotoSans Regular";
+  font-size: 13px;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #53D991;
+  }
 `;
