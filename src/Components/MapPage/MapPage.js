@@ -1,5 +1,5 @@
 /* global kakao */
-import { Column1, Column2, Desc, MapCol, MapPageContainer, MapPageWrapper, MapRow,Plus, Minus, R1, R2, Row1, Row2, Title, TitleCol, MapPin, TitleRow, C1, C2, C3, SelectBox, Label, SelectOptions, Option, OptionImg, MapSearchArea, MapSearchInput, SearchIcon, } from "./MapPageElement";
+import { Desc, MapCol, MapPageContainer, MapPageWrapper,Plus, Minus, R1, R2, Row1, Row2, Title, TitleCol, MapPin, TitleRow, C1, C2, C3, SelectBox, Label, SelectOptions, Option, OptionImg, MapWrap, } from "./MapPageElement";
 import { useState, useRef, useMemo } from "react";
 import { GlobalFonts } from "../../fonts/font";
 import { Map, MapMarker, CustomOverlayMap } from "react-kakao-maps-sdk";
@@ -14,7 +14,6 @@ import { shop_data } from "./data";
 import cafe from "../../images/cafe.svg";
 import restaurant from "../../images/restaurant.svg";
 import shop from "../../images/shop.svg";
-import search from "../../images/search.svg";
 
 function MapPage(){
     // data.js 불러오기
@@ -63,25 +62,14 @@ function MapPage(){
                               </SelectOptions>
                           </SelectBox>
                         </C2>
-                        <C3>
-                          <MapSearchArea>
-                            <MapSearchInput placeholder="가게이름 또는 지역을 검색해 보세요!"/>
-                            <SearchIcon src={search} alt="search"/>
-                          </MapSearchArea>
-                        </C3>
                       </TitleRow>
                     </R2>
                 </TitleCol>
               </Row1>
               <Row2>
-                <MapRow>
-                    <Column1>
-                        <MapAPI cafeData={cafeData} restaurantData={restaurantData} shopData={shopData} isCafeOpen={isCafeOpen} isRestOpen={isRestOpen} isShopOpen={isShopOpen}/>
-                    </Column1>
-                    <Column2>
-
-                    </Column2>
-                </MapRow>
+                <MapWrap>
+                  <MapAPI cafeData={cafeData} restaurantData={restaurantData} shopData={shopData} isCafeOpen={isCafeOpen} isRestOpen={isRestOpen} isShopOpen={isShopOpen}/>
+                </MapWrap>
               </Row2>
             </MapCol>
         </MapPageWrapper>
@@ -109,7 +97,7 @@ export function MapAPI(props){
 
     // 좌표들이 모두 보이게 지도의 중심좌표와 레벨을 재설정 
     const [points, setPoints] = useState([ 
-      {lat: 36.3745656, lng: 127.3213564},
+      {lat: 37.5618588, lng: 126.9468339},
     ])
 
     const bounds = useMemo(() => {
@@ -126,7 +114,7 @@ export function MapAPI(props){
     <>
     <div className={`map_wrap`}>
     <Map
-      center={props.cafeData[1].latlng }
+      center={ {lat: 37.5618588, lng: 126.9468339 }}
       style={{ width: "100%",
       height: "100%",
       position: "relative",
