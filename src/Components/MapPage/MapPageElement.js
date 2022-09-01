@@ -274,7 +274,7 @@ export const DetailInfo = styled.div`
   line-height: 18px;
   padding: 10px 0px 10px 30px;
   color: #767676;
-`
+`;
 export const ClearBtn = styled.button`
   position: absolute;
   top: 2px;
@@ -282,9 +282,8 @@ export const ClearBtn = styled.button`
   width: 80px;
   height: 35px;
 
-
   border-radius: 10px;
- 
+
   background: #53d991;
   white-space: nowrap;
   padding: 9px 20px;
@@ -307,12 +306,12 @@ export const ClearBtn = styled.button`
     color: #53d991;
     border: 1px solid #53d991;
   }
-`
+`;
 
 export const DetailWrap = styled.div`
   position: absolute;
   top: 220px;
-`
+`;
 
 export const DetailArea = styled.div`
   width: 400px;
@@ -321,7 +320,7 @@ export const DetailArea = styled.div`
   margin: 0 0 10px 20px;
   border: 1px solid rgba(0, 16, 61, 0.12);
   border-radius: 6px;
-`
+`;
 export const ShopName = styled.div`
   max-width: 500px;
   margin: 20px 0 0 30px;
@@ -334,7 +333,7 @@ export const ShopName = styled.div`
   letter-spacing: 0.2px;
 
   color: #424242;
-`
+`;
 export const ShopType = styled.div`
   max-width: 500px;
   margin: 0 0 0 20px;
@@ -345,8 +344,8 @@ export const ShopType = styled.div`
   font-size: 18px;
   letter-spacing: 0.2px;
 
-  color: #D3D3D3;
-`
+  color: #d3d3d3;
+`;
 export const ShopAddr = styled.div`
   max-width: 500px;
   margin: 0 0 10px 30px;
@@ -358,8 +357,7 @@ export const ShopAddr = styled.div`
   letter-spacing: 0.2px;
 
   color: #424242;
-`
-
+`;
 
 export const PostLink = styled.div`
   color: #424242;
@@ -372,14 +370,14 @@ export const PostLink = styled.div`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: #53D991;
+    color: #53d991;
   }
 `;
 
 export const Dot = styled.img`
   display: inline-block;
   width: 6.25px;
-`
+`;
 
 export const PostLink2 = styled.div`
   display: inline-block;
@@ -393,6 +391,6 @@ export const PostLink2 = styled.div`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: #53D991;
+    color: #53d991;
   }
 `;
