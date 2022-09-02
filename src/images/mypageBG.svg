@@ -10,6 +10,7 @@
 <g filter="url(#filter2_f_452_497)">
 <ellipse cx="1653.53" cy="235.118" rx="255.525" ry="77.6345" fill="#0BB8DD"/>
 </g>
+<line x1="208" y1="417.5" x2="258" y2="417.5" stroke="#424242" stroke-opacity="0.2"/>
 <g filter="url(#filter3_f_452_497)">
 <ellipse cx="107.22" cy="995.257" rx="127.607" ry="92.7993" fill="#26EE9F"/>
 </g>
@@ -18,6 +19,9 @@
 </g>
 <g filter="url(#filter5_f_452_497)">
 <ellipse cx="93.5255" cy="1073.12" rx="255.525" ry="77.6345" fill="#0BB8DD"/>
+</g>
+<g filter="url(#filter6_d_452_497)">
+<rect x="223" y="174" width="1481" height="977" rx="25" fill="white"/>
 </g>
 </g>
 <defs>
@@ -50,6 +54,16 @@
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="310" result="effect1_foregroundBlur_452_497"/>
+</filter>
+<filter id="filter6_d_452_497" x="201" y="156" width="1525" height="1021" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="11"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_452_497"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_452_497" result="shape"/>
 </filter>
 <clipPath id="clip0_452_497">
 <rect width="1920" height="1080" fill="white"/>
