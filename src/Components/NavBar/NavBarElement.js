@@ -60,7 +60,7 @@ export const NavLinks1 = styled(LinkRouter)`
   padding: 0 35px;
   height: 100%;
   cursor: pointer;
-  font-family: "NotoSans Regular";
+  font-family: "SUIT Regular";
   font-size: 18px;
   font-weight: ${({ active }) => (active === 1 ? 800 : 500)};
 
@@ -77,7 +77,7 @@ export const NavLinks2 = styled(LinkRouter)`
   text-decoration: none;
   height: 100%;
   cursor: pointer;
-  font-family: "NotoSans Regular";
+  font-family: "SUIT Regular";
   font-size: 18px;
   font-weight: ${({ active }) => (active === 2 ? 800 : 500)};
 

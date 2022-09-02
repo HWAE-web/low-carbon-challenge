@@ -12,29 +12,16 @@ export const MapPageWrapper = styled.div`
   height: 90%;
   width: 100%;
   margin: 100px 80px 0 80px;
-  @media screen and (max-width: 1024px) {
-  }
-  @media screen and (max-width: 768px) {
-  }
 `;
 
 export const MapCol = styled.div`
   display: grid;
   grid-template-rows: 100px 110px 110px 110px 110px 110px 110px 110px;
   grid-template-areas: "row1" "row2" "row2" "row2" "row2" "row2" "row2" "row2";
-
-  @media screen and (max-width: 1024px) {
-  }
-  @media screen and (max-width: 768px) {
-  }
 `;
 
 export const Row1 = styled.div`
   grid-area: row1;
-  @media screen and (max-width: 1024px) {
-  }
-  @media screen and (max-width: 768px) {
-  }
 `;
 
 export const Row2 = styled.div`
@@ -45,19 +32,10 @@ export const TitleCol = styled.div`
   display: grid;
   grid-template-rows: 60px 50px;
   grid-template-areas: "r1" "r2";
-
-  @media screen and (max-width: 1024px) {
-  }
-  @media screen and (max-width: 768px) {
-  }
 `;
 
 export const R1 = styled.div`
   grid-area: r1;
-  @media screen and (max-width: 1024px) {
-  }
-  @media screen and (max-width: 768px) {
-  }
 `;
 
 export const R2 = styled.div`
@@ -67,7 +45,7 @@ export const R2 = styled.div`
 export const Title = styled.div`
   max-width: 500px;
   margin: 10px 0 0 18px;
-  font-family: "NotoSans Bold";
+  font-family: "SUIT Extrabold";
   font-style: normal;
   font-weight: 900;
   font-size: 45px;
@@ -80,7 +58,7 @@ export const Title = styled.div`
 export const Desc = styled.div`
   max-width: 564px;
   margin: -20px 0 10 25px;
-  font-family: "NotoSans Regular";
+  font-family: "SUIT Regular";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -97,25 +75,14 @@ export const MapRow = styled.div`
   margin: 0;
 
   grid-template-areas: "col1 col1 col1 col1 col1 col2 col2";
-
-  @media screen and (max-width: 1024px) {
-  }
-  @media screen and (max-width: 768px) {
-  }
 `;
 export const Column1 = styled.div`
   grid-area: col1;
   margin: 10px 0 0 20px;
-  @media screen and (max-width: 768px) {
-    padding: 0;
-  }
 `;
 
 export const Column2 = styled.div`
   grid-area: col2;
-  @media screen and (max-width: 768px) {
-    padding: 0;
-  }
 `;
 
 export const Plus = styled.img`
@@ -136,32 +103,18 @@ export const TitleRow = styled.div`
   margin: 0;
 
   grid-template-areas: "c1 c1 c1 c1 c2 c3 c3";
-
-  @media screen and (max-width: 1024px) {
-  }
-  @media screen and (max-width: 768px) {
-  }
 `;
 export const C1 = styled.div`
   grid-area: c1;
   margin: 0 0 0 20px;
-  @media screen and (max-width: 768px) {
-    padding: 0;
-  }
 `;
 
 export const C2 = styled.div`
   grid-area: c2;
   margin: 0 0 0 70px;
-  @media screen and (max-width: 768px) {
-    padding: 0;
-  }
 `;
 export const C3 = styled.div`
   grid-area: c3;
-  @media screen and (max-width: 768px) {
-    padding: 0;
-  }
 `;
 
 export const SelectBox = styled.div`
@@ -188,7 +141,7 @@ export const SelectBox = styled.div`
 `;
 
 export const Label = styled.label`
-  font-family: "NotoSans Regular";
+  font-family: "SUIT Regular";
 
   font-size: 15px;
   margin-left: 10px;
@@ -213,7 +166,7 @@ export const SelectOptions = styled.ul`
 `;
 
 export const Option = styled.li`
-  font-family: "NotoSans Regular";
+  font-family: "SUIT Regular";
 
   font-size: 14px;
   padding: 8px 4px;
@@ -246,7 +199,7 @@ export const MapSearchInput = styled.input`
   border: 1px solid rgba(0, 16, 61, 0.12);
   border-radius: 6px;
 
-  font-family: "NotoSans Regular";
+  font-family: "SUIT Regular";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -267,7 +220,7 @@ export const SearchIcon = styled.img`
 
 export const DetailInfo = styled.div`
   width: 400px;
-  font-family: "NotoSans Regular";
+  font-family: "SUIT Regular";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -297,7 +250,6 @@ export const ClearBtn = styled.button`
   justify-content: center;
   align-items: center;
   filter: drop-shadow(10px 10px 10px rgba(103, 208, 152, 0.2));
-  /* transition: all 0.2s ease-in-out; */
 
   &:hover {
     transition: all 0.2s ease-in-out;
@@ -324,7 +276,7 @@ export const DetailArea = styled.div`
 export const ShopName = styled.div`
   max-width: 500px;
   margin: 20px 0 0 30px;
-  font-family: "NotoSans Bold";
+  font-family: "SUIT Extrabold";
   display: inline-block;
   font-style: normal;
   font-weight: 900;
@@ -337,7 +289,7 @@ export const ShopName = styled.div`
 export const ShopType = styled.div`
   max-width: 500px;
   margin: 0 0 0 20px;
-  font-family: "NotoSans Bold";
+  font-family: "SUIT Semibold";
   display: inline-block;
   font-style: normal;
   font-weight: 600;
@@ -349,7 +301,7 @@ export const ShopType = styled.div`
 export const ShopAddr = styled.div`
   max-width: 500px;
   margin: 0 0 10px 30px;
-  font-family: "NotoSans Regular";
+  font-family: "SUIT Regular";
   font-style: normal;
   font-weight: 900;
   font-size: 15px;
@@ -365,7 +317,7 @@ export const PostLink = styled.div`
   margin: 0 10px 20px 30px;
   cursor: pointer;
   display: inline-block;
-  font-family: "NotoSans Regular";
+  font-family: "SUIT Regular";
   font-size: 13px;
 
   &:hover {
@@ -385,7 +337,7 @@ export const PostLink2 = styled.div`
   width: 50px;
   margin: 0 0 20px 13px;
   cursor: pointer;
-  font-family: "NotoSans Regular";
+  font-family: "SUIT Regular";
   font-size: 13px;
   text-decoration: none;
 
