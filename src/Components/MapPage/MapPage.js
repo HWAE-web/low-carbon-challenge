@@ -57,7 +57,7 @@ import { shop_data } from "./data";
 import cafe from "../../images/cafe.svg";
 import restaurant from "../../images/restaurant.svg";
 import shop from "../../images/shop.svg";
-import { addState, clearState } from "./store.js";
+import { addState, clearState } from "../../store.js";
 
 function MapPage() {
   // redux state
